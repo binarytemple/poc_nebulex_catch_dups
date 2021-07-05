@@ -1,0 +1,4 @@
+%{
+  "decorator": {:hex, :decorator, "1.4.0", "a57ac32c823ea7e4e67f5af56412d12b33274661bb7640ec7fc882f8d23ac419", [:mix], [], "hexpm", "0a07cedd9083da875c7418dea95b78361197cf2bf3211d743f6f7ce39656597f"},
+  "nebulex": {:hex, :nebulex, "2.1.1", "ae7fe6791b03b00caeaa1a63c80de061903617187c3635cbf016a5b78b0459c5", [:mix], [{:decorator, "~> 1.4", [hex: :decorator, repo: "hexpm", optional: true]}, {:shards, "~> 1.0", [hex: :shards, repo: "hexpm", optional: true]}, {:telemetry, "~> 0.4", [hex: :telemetry, repo: "hexpm", optional: true]}], "hexpm", "a8f803e8fd0fc653fe10e5ef72c78592b0f8cc17980d02d6dce0b93047569624"},
+}

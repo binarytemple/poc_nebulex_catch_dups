@@ -15,8 +15,8 @@ defmodule PocNebulexCatchDups do
   def write_update(%Event{id: id, timestamp: timestamp, payload: payload} = event) do
     IO.puts("writing event #{inspect(event)}")
     case rem(:rand.uniform(10),2) do 
-      0 -> IO.puts("modulo says no");  {:ok, {id,timestamp}}
-      1 -> IO.puts("modulo says yes");{:error, "modulo says no"}
+      0 -> IO.puts("modulo says yes");  {:ok, {id,timestamp}}
+      1 -> IO.puts("modulo says no");{:error, "modulo says no"}
     end
   end
 
